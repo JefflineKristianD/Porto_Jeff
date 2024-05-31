@@ -1,0 +1,38 @@
+.intro{
+    height: calc(100vh - 4rm);
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Hello{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: cornflowerblue;
+}
+
+.introPara{
+    color: cornflowerblue;
+}
+.Fotosaya{
+    height: 21rem;
+    width: 21rem;
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 50rem;
+    border-radius: 20rem;
+}

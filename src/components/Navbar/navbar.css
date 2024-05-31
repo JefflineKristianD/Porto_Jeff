@@ -1,0 +1,39 @@
+.navbar{
+    background: cornflowerblue;
+    height: 5rem;
+    width: 100vw;
+    margin: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.name{
+    font-weight: bold;
+    object-fit: cover;
+    height: 3rem;
+    width: 10rem;
+}
+
+.desktopMenuListItem{
+    color: black;
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.desktopMenuListItem:hover{
+    color: beige;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid;
+}
+
+.active{
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+}
